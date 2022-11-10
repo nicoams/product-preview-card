@@ -14,9 +14,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -35,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/responsive-product-preview-card-page-DWSwd23S31)
 - Live Site URL: [GitHub](https://nicoams.github.io/product-preview-card/)
 
 ## My process
@@ -54,7 +51,7 @@ You can see some of that below:
 
 HTML
 
-Here I created a box to contain the 2 major elements of the product: the picture ("image") and the texts ("infos"). Since it had only one picture, I used it as a cover background for the div. The text, however, had many more elements such as category, title, desc, etc. so I decied to separate them beacuse I thought it would be easier to identify, apply and reuse the CSS properties later.
+Here I created a box to contain the two major elements of the product: the picture ("image") and the texts ("infos"). Since the product had only one picture, I used it as a cover background for the div. The text, however, had many more elements such as category, title, desc, etc. so I decied to separate them beacuse I thought it would be easier to identify, apply and reuse the CSS properties later.
 ```html
     <div class="box-divs">
         <div class="image"></div>
@@ -113,7 +110,6 @@ As you can see, some elements have properties in common and specifics ones. Writ
 
 I had some trouble to understand the measures and displays while nesting, but I found it interesting and I intend to improve that.
 
-
 ### Useful resources
 
 About the text, the following properties helped me a lot:
@@ -124,7 +120,7 @@ It does not matter how the text is written/imported, these effects will be appli
 
 Regarding the flex properties:
 
-When I was researching the use of flex-grow I found this [topic](https://pt.stackoverflow.com/questions/358829/existe-diferença-entre-flex-basis-flex-grow-e-width-qual-é-a-recomendação-de-u) on stackoverflow and those answers were quite explanatory. There I also found this [article](https://origamid.com/projetos/flexbox-guia-completo/) which explains in a lot of details the flex-box property. They were like game changers for me, and I hope they can help you guys too.
+When I was researching the use of flex-grow I found this [topic](https://pt.stackoverflow.com/questions/358829/existe-diferença-entre-flex-basis-flex-grow-e-width-qual-é-a-recomendação-de-u) on stackoverflow and those answers were quite explanatory. There I also found this [article](https://origamid.com/projetos/flexbox-guia-completo/) which explains with a lot of details the flex-box property. They were like game changers to me and I hope they can help you guys too.
 
 ## Author
 
