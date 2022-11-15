@@ -14,26 +14,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,100,0;9..144,400,0;9..144,900,0;9..144,900,100&family=Montserrat:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-    <div class="box-divs">
-        <div class="image"></div>
-
-        <div class="infos">
-            <p class="category">perfume</p>
-            <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
-            <p class="desc">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-                Perfumer-Creator for the House of CHANEL.</p>
-            <div class="prices">
-                <p class="current-price">$149.99</p>
-                <p class="prev-price">$169.99</p>
-            </div>
-            <div class="link">
-                <a href="#" class="button-add"> 
-                    <img class="icon" src="images/icon-cart.svg"> Add to Cart
-                  </a> 
+    <main>
+        <div class="container">
+        <div class="box-divs">
+            <picture>
+                <source media="(min-width: 650px)" srcset="images/image-product-desktop.jpg">
+                <img class="product-picture" src="images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum bottle laing down with some leaves around.">
+            </picture>
+            <div class="infos">
+                <p class="category">perfume</p>
+                <h1 class="title" tabindex="0">Gabrielle Essence Eau De Parfum</h1>
+                <p class="desc" tabindex="0">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                    Perfumer-Creator for the House of CHANEL.</p>
+                <div class="prices">
+                    <p class="current-price">$149.99</p>
+                    <del class="prev-price">
+                        $169.99
+                        <span class="sr-only">The previous price was 169.99 dollars. After the discount, it is now 149.99 dollars.</span>
+                    </del>
+                </div>
+                <div class="link">
+                    <a href="#" class="button-add"> 
+                        <img class="icon" src="images/icon-cart.svg" alt="Cart Icon"> Add to Cart
+                    </a> 
+                </div>
             </div>
         </div>
-    </div>
-    </div>
+        </div>
+    </main>
 </body>
 </html>
