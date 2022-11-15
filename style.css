@@ -19,22 +19,22 @@ body{
     justify-content: space-between;
     border-radius: 20px;
 }
-.image, .infos{
+.product-picture.infos{
     height: 100%;
     margin: 0;
     box-sizing: border-box;
 }
-.image{
-    width: 45%;
-    background-image: url('images/image-product-desktop.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+.product-picture{
+    object-fit: cover;
+    width:100%;
+    height: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 .infos{
     width: 55%;
     padding: 10px;
+    margin: 0 15px;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -72,7 +72,16 @@ body{
 .prev-price{
     font-size: 20px;
     color: hsl(228, 12%, 48%);
-    text-decoration: line-through hsl(228, 12%, 48%);
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 .link{
     margin-bottom: 20px;
@@ -109,12 +118,11 @@ body{
         width: 90%;
         height: 95%;
         flex-direction: column;}
-    .image, .infos{
+    .product-picture, .infos{
         width: 100%;
     }
-    .image{
-        height: 35%;
-        background-image: url('images/image-product-mobile.jpg');
+    .product-picture{
+        height: 100%;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0;
     }
